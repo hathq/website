@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
@@ -8,7 +7,19 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
     shim: false,
-    typeCheck: true
+    typeCheck: true,    
   },
-  modules: ['@nuxt/eslint', '@nuxthub/core'],
+  css: ['~/assets/css/main.css'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxthub/core',
+    '@nuxtjs/tailwindcss',
+    'reka-ui/nuxt',
+  ],
+  eslint: {
+    config: {
+      stylistic: true,
+      standalone: false,
+    },
+  },
 })
