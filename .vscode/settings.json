@@ -1,0 +1,7 @@
+{
+    "nuxtr.vueFiles.style.alwaysScoped": true,
+    "nuxtr.vueFiles.firstTag": "script",
+    "editor.tabSize": 2,
+    "nuxtr.defaultPackageManager": "NPM",
+    "nuxtr.monorepoMode.DirectoryName": "nuxt-app"
+}
