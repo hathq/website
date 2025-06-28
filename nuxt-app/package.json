@@ -8,8 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npx nuxthub deploy",
-    "compress-images": "npx sharp"
+    "deploy": "npx nuxthub deploy"
   },
   "dependencies": {
     "@iconify/vue": "^5.0.0",
