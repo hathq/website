@@ -1,1 +1,3 @@
-<template>test1</template>
+<template>
+  <PixiMatrixRain></PixiMatrixRain>
+</template>

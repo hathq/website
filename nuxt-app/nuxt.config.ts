@@ -15,7 +15,11 @@ export default defineNuxtConfig({
     '@nuxthub/core',
     '@nuxtjs/tailwindcss',
     'reka-ui/nuxt',
+    '@pinia/nuxt',
   ],
+  imports: {
+    dirs: ['types']
+  },
   eslint: {
     config: {
       stylistic: true,

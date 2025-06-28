@@ -8,11 +8,14 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npx nuxthub deploy"
+    "deploy": "npx nuxthub deploy",
+    "compress-images": "npx sharp"
   },
   "dependencies": {
     "@iconify/vue": "^5.0.0",
     "nuxt": "^4.0.0-alpha.4",
+    "pinia": "^3.0.3",
+    "pixi.js": "^8.10.2",
     "reka-ui": "^2.3.1"
   },
   "devDependencies": {
@@ -20,8 +23,11 @@
     "@nuxt/types": "^2.18.1",
     "@nuxthub/core": "^0.9.0",
     "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
+    "@pinia/nuxt": "^0.11.1",
+    "@vueuse/core": "^13.4.0",
     "eslint": "^9.30.0",
     "prettier": "^3.6.2",
+    "sharp": "^0.34.2",
     "typescript": "^5.8.3",
     "vue": "^3.5.17",
     "vue-eslint-parser": "^8.3.0",
