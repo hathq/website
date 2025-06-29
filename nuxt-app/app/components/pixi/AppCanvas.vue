@@ -5,10 +5,10 @@ const { app: rain, setup, start, stop } = useMatrixRain()
 onMounted(async () => {
   await rain.init({
     width: window.innerWidth,
-    height: window.innerHeight-150,
+    height: window.innerHeight-130,
     backgroundColor: '#FFFFFF',
   })
-  setup(appElm.value!.clientWidth, window.innerHeight-150)
+  setup(appElm.value!.clientWidth, window.innerHeight-130)
   appElm.value?.appendChild(rain.canvas)
   start()
 })

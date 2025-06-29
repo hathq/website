@@ -54,7 +54,7 @@ const currentTrigger = ref('')
             <NavigationMenuListItem
               title="お問い合わせ"
             >
-              現在新規の受付を停止しております。その他の方は直接メール等でご連絡ください。
+              現在新規の受付を停止しております。お手数ですが直接メール等にてご連絡をお願いいたします。
             </NavigationMenuListItem>
           </ul>
         </NavigationMenuContent>
