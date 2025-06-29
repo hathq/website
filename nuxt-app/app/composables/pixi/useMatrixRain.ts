@@ -16,7 +16,7 @@ export const useMatrixRain = () => {
       const style = new TextStyle({
         fontFamily: 'monospace',
         fontSize: FONT_SIZE,
-        fill: 0x00ff00,
+        fill: 0x33cc33,
         dropShadow: true
       })
 
