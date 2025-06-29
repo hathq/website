@@ -9,15 +9,15 @@ export const useMatrixRain = () => {
   const movementTicker = new Ticker()
   const switchTicker = new Ticker()
 
-  const setup = (window: Window) => {
-    const columns = Math.floor(window.innerWidth / FONT_SIZE)
-
+  const setup = (width: number, height: number) => {
+    const columns = Math.floor(width / FONT_SIZE)
+    app.canvas.style.backgroundColor = '#FFFFFF'
     for (let i = 0; i < columns; i++) {
       const style = new TextStyle({
         fontFamily: 'monospace',
         fontSize: FONT_SIZE,
-        fill: 0x33cc33,
-        dropShadow: true
+        fill: 0x33CCCC,
+        dropShadow: false
       })
 
       const text = new BitmapText({
@@ -26,7 +26,7 @@ export const useMatrixRain = () => {
       })
 
       text.x = i * FONT_SIZE
-      text.y = Math.random() * window.innerHeight
+      text.y = Math.random() * height
 
       app.stage.addChild(text)
       drops.push(text)

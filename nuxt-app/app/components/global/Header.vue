@@ -3,12 +3,7 @@
 </script>
 
 <template>
-  <div>
-
+  <header class="shrink-0 bg-white p-4">
     <Navigation></Navigation>
-  </div>
+  </header>
 </template>
-
-<style scoped>
-
-</style>
